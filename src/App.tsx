@@ -15,14 +15,12 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div>
-        <button onClick={() => window.open("./invitation")}>
+        <button onClick={() => setUser(1)}>
           Sono Angelica Elizabeth Salvadore
         </button>
         <br />
         <br />
-        <button onClick={() => setCount((count) => count + 1)}>
-          Sono un altra persona
-        </button>
+        <button onClick={() => setUser(2)}>Sono un altra persona</button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
