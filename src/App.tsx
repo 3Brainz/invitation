@@ -1,8 +1,7 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import Dance from "./assets/Dance.svg";
 import InvitoScema from "./assets/invito.png";
-import guagliu from "./assets/guagliu.gif";
+import guagliu from "./assets/Guagliu.gif";
 
 import "./App.css";
 
