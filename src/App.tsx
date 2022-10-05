@@ -2,7 +2,7 @@ import { useState } from "react";
 import Dance from "./assets/Dance.svg";
 import InvitoScema from "./assets/invito.png";
 import guagliu from "./assets/Guagliu.gif";
-
+import cinque from "./assets/Dammiilcinque.gif";
 import "./App.css";
 
 function App() {
@@ -55,6 +55,7 @@ function App() {
             <h3>AMMA FA O BURDELL, STATT ACCORT CA C STA COCC SCEM</h3>
             <h3>PUORT TUTT É CUMPAGNJ TUOIJ</h3>
             <h2>FRAAAAAATM</h2>
+            <img src={cinque} className="cinque" alt="cinque"></img>
           </>
         ) : (
           <></>
